@@ -5,8 +5,49 @@
 # public_web_encryption
 
 <p>
-  This is an implementation of a public webpage encrypted with a key.
+  This is an implementation of a public webpage encrypted with a key use the crpyto-js library.
   The content is stored as a token and can't be viewed until decrypted by the visitor.
   This method allows the hosting of sensitive material statically without using an API for authentication.
   All the visitor has to do is input the right combination in order to view the web content.
 </p>
+
+
+
+# crypto use example
+
+<p>
+  inlude the files below following their order:
+  
+</p>
+
+<ul>
+  <li>
+
+    scripts/crypto-js.min/crypto-js.min.js
+  </li>
+  <li>
+    
+    scripts/crypto.js
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+```javascript
+const MY_SECRET_DATA = "hehe"
+const SECRET_KEY = "hi peanut";
+
+//encryption
+const encrypted_data = encrypt(MY_SECRET_DATA, SECRET_KEY); 
+
+//decryption
+const decrypted_data = decrypt(MY_SECRET_DATA, SECRET_KEY);
+```
+
+
