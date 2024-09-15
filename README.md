@@ -3,3 +3,10 @@
 </div>
 
 # public_web_encryption
+
+<p>
+  This is an implementation of a public webpage encrypted with a key.
+  The content is stored as a token and can't be viewed until decrypted by the visitor.
+  This method allows the hosting of sensitive material statically without using an API for authentication.
+  All the visitor has to do is input the right combination in order to view the web content.
+</p>
