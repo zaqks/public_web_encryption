@@ -1,7 +1,15 @@
+:root {
+  --txt: #eeeeee;
+  --accent: #056d63;
+  --bg: #000000;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+  font-family: monospace;
 }
 
 body {
@@ -14,9 +22,12 @@ body {
   padding: 10vw;
 
   overflow-y: scroll;
+  background-color: var(--bg);
 }
 
 #form {
+  max-width: 500px;
+
   margin: auto;
   display: flex;
 
@@ -27,20 +38,29 @@ body {
 #form * {
   font-size: 20px;
 
-  padding: 5px 20px;
+  padding: 15px 20px;
   border-radius: 10px;
   text-align: center;
+
+  border: none;
 }
 
+
 #form h1 {
-  font-size: 25px;
+  color: var(--txt);  
+  font-size: 30px;
   margin-bottom: 30px;
 }
 
 #form input{
-  margin-bottom: 20px;
+  color: var(--bg);
+  background-color: var(--txt);  
 }
 
-#content {
-  display: none;
+#form button{
+  color: var(--txt);
+  font-weight: 600;
+  background-color: var(--accent);
+
+  cursor: pointer;
 }
