@@ -32,6 +32,4 @@ BTN_2.addEventListener("click", function () {
 });
 
 
-
-
-console.log(get_cookie("b"))
+delete_cookie("csrftoken")

@@ -9,3 +9,9 @@ function get_cookie(key) {
 
   return null;
 }
+
+function set_cookie(key, val) {
+  document.cookie = `${key}=${val}`;
+}
+
+function delete_cookie(key) {}
