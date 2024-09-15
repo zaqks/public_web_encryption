@@ -31,5 +31,3 @@ BTN_2.addEventListener("click", function () {
   decrypt_btn_2();
 });
 
-
-delete_cookie("csrftoken")

@@ -14,4 +14,6 @@ function set_cookie(key, val) {
   document.cookie = `${key}=${val}`;
 }
 
-function delete_cookie(key) {}
+function delete_cookie(key) {
+  document.cookie = `${key}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+}
