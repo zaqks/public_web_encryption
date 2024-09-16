@@ -7,7 +7,7 @@
 <p>
   This is a simple implementation of a public webpage encrypted with a key use the crpyto-js library.<br>
   The content is stored as a token and can't be viewed until decrypted by the visitor.<br>
-  This method allows the hosting of sensitive material statically without using an API for authentication, but it's still possible to brute force it like anyother password protected ressources.<br>
+  This method allows the hosting of sensitive material statically without using an API for authentication, but it's still possible to brute force it like anyother password protected ressource.<br>
   All the visitor has to do is input the right combination in order to view the web content.
 </p>
 
